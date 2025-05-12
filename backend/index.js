@@ -19,7 +19,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 
 const corsOptions = {
-    origin:'https://skill-op.netlify.app',
+    origin:'https://jobgenix.netlify.app/',
     credentials:true
 }
 
